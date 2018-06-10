@@ -1,4 +1,4 @@
-package algorithms;
+package StdLib;
 
 /**
  * Test client for StdIn and In. 

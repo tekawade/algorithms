@@ -1,4 +1,4 @@
-package algorithms;
+package StdLib;
 
 /******************************************************************************
  *  Compilation:  javac Out.java

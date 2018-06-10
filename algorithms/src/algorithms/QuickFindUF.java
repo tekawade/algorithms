@@ -3,6 +3,9 @@
  */
 package algorithms;
 
+import StdLib.StdIn;
+import StdLib.StdOut;
+
 /**
  * @author tekawade
  *
