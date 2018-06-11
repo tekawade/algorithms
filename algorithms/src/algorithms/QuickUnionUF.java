@@ -24,7 +24,7 @@ public class QuickUnionUF {
 		while(id[i] != i)
 		{
 //			id[i] = id[id[i]];			// Path compression
-			id[i] = root(id[i]);			// My path compression
+			id[i] = root(id[i]);			// My recursive path compression
 			i = id[i];
 		}
 		return i;
