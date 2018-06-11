@@ -18,6 +18,7 @@ import javax.sound.sampled.SourceDataLine;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
 
+@SuppressWarnings("unused")
 public class PlayMusic {
 
     // play sound file using Applet.newAudioClip();
@@ -44,6 +45,7 @@ public class PlayMusic {
             // check if file format is supported
             // (if not, will throw an UnsupportedAudioFileException)
             InputStream is = PlayMusic.class.getResourceAsStream(filename);
+            
             AudioInputStream ais = AudioSystem.getAudioInputStream(is);
 
             new Thread(new Runnable() {
